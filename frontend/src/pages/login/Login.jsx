@@ -92,7 +92,6 @@ export const Login = () => {
         <Button type={'submit'} disabled={isSend} title={'Войти'} />
         <LinkContainer link={'/register'} title={'Зарегистрироваться'} />
       </form>
-      <div>{'eve.holt@reqres.in cityslicka'}</div>
     </Container>
   );
 };

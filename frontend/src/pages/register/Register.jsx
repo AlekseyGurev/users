@@ -130,7 +130,6 @@ export const Register = () => {
         />
         <LinkContainer link={'/login'} title={'Войти'} />
       </form>
-      <div>{'email: eve.holt@reqres.in, password: pistol'}</div>
     </Container>
   );
 };
