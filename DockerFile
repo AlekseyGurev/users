@@ -2,10 +2,10 @@ FROM node:18
 WORKDIR /usr/src/app.
 COPY . .
 
-RUN cd frontend && npm install
-RUN cd frontend && npm build
-RUN cd server && npm install
+RUN cd frontend && npm i
+RUN cd frontend && npm run build
+RUN cd server && npm i
 
 EXPOSE 5174
 
-CMD ["node", "server/server"]
+CMD ["npm", "server/server.js"]
