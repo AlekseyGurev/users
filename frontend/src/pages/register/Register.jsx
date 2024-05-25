@@ -128,7 +128,7 @@ export const Register = () => {
           disabled={isSend}
           title={'Зарегистрироваться'}
         />
-        <LinkContainer link={'/'} title={'Войти'} />
+        <LinkContainer link={'/login'} title={'Войти'} />
       </form>
       <div>{'email: eve.holt@reqres.in, password: pistol'}</div>
     </Container>
