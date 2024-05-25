@@ -1,0 +1,55 @@
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: none;
+}
+
+.buttonIcon {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.buttonIconExit {
+  background-image: url('../../assets/exit.svg');
+}
+
+.buttonIconBack {
+  background-image: url('../../assets/bakc.svg');
+}
+
+.visuallyHidden {
+  visibility: hidden;
+}
+
+@media (min-width: 700px) {
+  .button {
+    display: block;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: var(--color-white);
+    border-radius: 8px;
+    border: 1px solid var(--color-white);
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    opacity: 0.7;
+  }
+
+  .button:active {
+    opacity: 0.3;
+  }
+
+  .buttonIcon {
+    display: none;
+  }
+}

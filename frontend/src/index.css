@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text-small: 14px;
+  --title: 20px;
+
+  --color-black: #151317;
+  --color-violet: #512689;
+  --color-gray: #808185;
+  --color-gray-light: #f8f8f8;
+  --color-red: #ff6161;
+  --color-white: #ffffff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 375px;
+  margin: 0;
+}

@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 33px 16px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 1140px) {
+  .container {
+    margin: 0 auto;
+    max-width: 846px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 'text social';
+  }
+
+  .textContainer {
+    grid-area: text;
+  }
+}

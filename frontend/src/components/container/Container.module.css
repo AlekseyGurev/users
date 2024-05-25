@@ -1,0 +1,17 @@
+.containerAuth {
+  align-self: center;
+  box-sizing: border-box;
+  width: 375px;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+
+  @media (min-width: 520px) {
+    width: 500px;
+  }
+}
+
+.containerPage {
+  width: 100%;
+  padding-bottom: 50px;
+}
